@@ -66,7 +66,7 @@ alert('Vash Budjet: ' + appData.moneyPerDay);
 
     if(appData.moneyPerDay < 100){
         alert('Маловато бабок у тебя сынок... надо чето думать');
-    } else if(appData.moneyPerDay  > 200){
+    } else if(appData.moneyPerDay  > 2000){
         alert('Да ты жирный кот... где столько поднимаешь?');
     } else if(appData.moneyPerDay >=100 && appData.moneyPerDay< 2000){
         alert('Ну не бедствуешь и ладно... как сам то братишка?');
